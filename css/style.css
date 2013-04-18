@@ -1,0 +1,20 @@
+body {
+	margin: 50px auto 0;
+}
+
+/* Example tools buttons */
+.edit, .delete {
+	display: none;
+	cursor: pointer;
+}
+
+.edit:active, .delete:active {
+	position: relative;
+	top: 1px;
+}
+
+ul > li:hover img {
+	display: inline-block;
+}
+
+/* Put your custom CSS here */
